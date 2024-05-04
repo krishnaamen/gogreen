@@ -13,6 +13,9 @@ const NavBar = () => {
         </div>
         <ul className="nav-links">
         <li className="nav-item">
+        <li className="nav-item">
+            <a href="#products" className="nav-link">Home</a>
+          </li>
             <a href="#charging-solutions" className="nav-link">Charging Solutions</a>
             <div className="dropdown-content">
               <a href="#">Solution 1</a>

@@ -1,1 +1,10 @@
+.bg{
 
+
+background-image: url('./assets/green-charge.png');
+height: 680px;
+display: 'flex';
+background-size: cover;
+
+
+}
