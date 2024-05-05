@@ -12,12 +12,11 @@ const NavBar = () => {
           <img src={logo} alt="Logo" className="logo-img" />
         </div>
         <ul className="nav-links">
-        <li className="nav-item">
+          <li className="nav-item">
             <a href="#charging-solutions" className="nav-link">Charging Solutions</a>
             <div className="dropdown-content">
               <a href="#">Solution 1</a>
               <a href="#">Solution 2</a>
-              <a href="#">Solution 3</a>
             </div>
           </li>
 
@@ -27,7 +26,7 @@ const NavBar = () => {
             <a href="#products" className="nav-link">Products</a>
           </li>
 
-         
+
           <li className="nav-item">
             <a href="#contact-us" className="nav-link">Contact Us</a>
           </li>

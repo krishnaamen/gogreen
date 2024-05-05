@@ -1,7 +1,8 @@
 
 import './App.css';
 import Navbar from './components/Navbar'
-import ContactUs from './components/contactus';
+import Contactus from './components/Contactus'
+import logo from './assets/logo.png'
 
 function App() {
 
@@ -9,12 +10,18 @@ function App() {
   return (
     <>
       <div className="App">
-        <header className="App-header">
-          <Navbar />
-        </header>
-        <body>
-          <ContactUs />
-        </body>
+        <Navbar />
+        <div className='bodydiv'>
+          <div>
+
+          </div>
+          <div>
+            <Contactus />
+          </div>
+
+        </div>
+
+
       </div>
 
     </>

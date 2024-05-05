@@ -72,3 +72,9 @@ body{
 .nav-item:hover .dropdown-content {
   display: block;
 }
+.bodydiv{
+    display: flex;;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}

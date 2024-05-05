@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import './contactus.css'; // Importing the CSS file for styling
 
-const ContactUs = () => {
+const Contactus = () => {
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -28,7 +28,7 @@ const ContactUs = () => {
     return (
         <div className="contact-us-modal">
             <div className="contact-us-content">
-                <h2>Contact Us</h2>
+                <h2>Contact Us for more info</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
                         <label htmlFor="firstName">First Name</label>
@@ -53,4 +53,4 @@ const ContactUs = () => {
     );
 };
 
-export default ContactUs;
+export default Contactus;
