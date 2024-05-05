@@ -1,8 +1,7 @@
 // NavBar.js
 
 import React from 'react';
-import './NavBar.css'; // Importing the CSS file for styling
-import logo from '../assets/logo.png'; // Importing the logo image
+import logo from '../assets/logo1.png'; // Importing the logo image
 
 const NavBar = () => {
   return (
@@ -12,10 +11,8 @@ const NavBar = () => {
           <img src={logo} alt="Logo" className="logo-img" />
         </div>
         <ul className="nav-links">
-        <li className="nav-item">
-        <li className="nav-item">
-            <a href="#products" className="nav-link">Home</a>
-          </li>
+          <li className="nav-item">
+
             <a href="#charging-solutions" className="nav-link">Charging Solutions</a>
             <div className="dropdown-content">
               <a href="#">Solution 1</a>
@@ -30,7 +27,7 @@ const NavBar = () => {
             <a href="#products" className="nav-link">Products</a>
           </li>
 
-         
+
           <li className="nav-item">
             <a href="#contact-us" className="nav-link">Contact Us</a>
           </li>
