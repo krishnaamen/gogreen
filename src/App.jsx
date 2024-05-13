@@ -22,8 +22,12 @@ function App() {
             <ContactUs />
           </div>
 
+
+
+
           <div className='imagediv'>
             <div>
+            <marquee  className="greentext"  direction="">We believe in green energy</marquee>
             <h6 className='pgtext'>What Do We Focus On
               Reliable Chargers & Outstanding Service</h6>
             </div>
