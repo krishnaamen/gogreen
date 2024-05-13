@@ -1,6 +1,6 @@
 // ContactUs.js
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './contactus.css'; // Importing the CSS file for styling
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

@@ -1,6 +1,6 @@
 // NavBar.js
 
-import React from 'react';
+
 import logo from '../assets/logo1.png'; // Importing the logo image
 
 const NavBar = () => {
