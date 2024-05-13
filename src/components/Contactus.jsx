@@ -34,40 +34,24 @@ const ContactUs = () => {
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
                         <label htmlFor="firstName">First Name</label>
-                        <input required type="text" id="firstName" name="firstName" value={formData.firstName} onChange={handleChange} />
+                        <input type="text" id="firstName" name="firstName" value={formData.firstName} onChange={handleChange} />
                     </div>
                     <div className="form-group">
                         <label htmlFor="lastName">Last Name</label>
-                        <input required type="text" id="lastName" name="lastName" value={formData.lastName} onChange={handleChange} />
+                        <input type="text" id="lastName" name="lastName" value={formData.lastName} onChange={handleChange} />
                     </div>
                     <div className="form-group">
                         <label htmlFor="email">Email</label>
-                        <input required type="email" id="email" name="email" value={formData.email} onChange={handleChange} />
+                        <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} />
                     </div>
                     <div className="form-group">
                         <label htmlFor="phoneNumber">Phone Number</label>
-                        <input required type="tel" id="phoneNumber" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} />
+                        <input type="tel" id="phoneNumber" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} />
                     </div>
 
-                    {
-                        formData.firstName !== '' && formData.lastName !== '' && formData.email !== '' && formData.phoneNumber !== '' ?
-                            <button onClick={notify} type="submit">Submit</button> :
 
-                            <button type="submit" onClick={notifyError}>Submit</button>
-                    }
 
-                    <ToastContainer
-                        position="bottom-center"
-                        autoClose={5000}
-                        hideProgressBar={false}
-                        newestOnTop={false}
-                        closeOnClick
-                        rtl={false}
-                        pauseOnFocusLoss
-                        draggable
-                        pauseOnHover
-                        theme="light"
-                        transition:Bounce />
+                    <button type="submit" onClick={notifyError}>Submit</button>
 
                 </form>
             </div>
