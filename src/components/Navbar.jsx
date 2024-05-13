@@ -1,8 +1,7 @@
 // NavBar.js
 
 import React from 'react';
-import './NavBar.css'; // Importing the CSS file for styling
-import logo from '../assets/logo.png'; // Importing the logo image
+import logo from '../assets/logo1.png'; // Importing the logo image
 
 const NavBar = () => {
   return (
