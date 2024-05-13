@@ -209,3 +209,6 @@ button:hover {
   font-family: 'Inter', sans-serif;
   color: black;
 }
+.App-header{
+ margin-bottom: 10%;
+}
