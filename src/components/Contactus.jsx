@@ -22,6 +22,11 @@ const ContactUs = () => {
         });
     };
 
+
+    window.onload = function () {
+        document.querySelector(".radiobutton").checked = true;
+    };
+
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(formData);
@@ -48,6 +53,10 @@ const ContactUs = () => {
                         <label htmlFor="phoneNumber">Phone Number</label>
                         <input type="tel" id="phoneNumber" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} />
                     </div>
+                    <div className="form-group">
+                        <input className="radiobutton" type="radio" value="Male" name="gender" onSelect={true} /> Subscribe to our newsletter
+                    </div>
+
 
 
 
