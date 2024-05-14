@@ -48,6 +48,10 @@ const ContactUs = () => {
                         <label htmlFor="phoneNumber">Phone Number</label>
                         <input required type="tel"  placeholder="Phone" id="phoneNumber" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} />
                     </div>
+                    <div className="form-group">
+                        <input className="radiobutton" type="radio" value="Male" name="gender" onSelect={true} /> Subscribe to our newsletter
+                    </div>
+
 
                     {
                         formData.firstName !== '' && formData.lastName !== '' && formData.email !== '' && formData.phoneNumber !== '' ?

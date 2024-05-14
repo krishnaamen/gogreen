@@ -2,7 +2,7 @@
 import './index.css';
 import Navbar from './components/Navbar'
 import ContactUs from './components/Contactus';
-import img from './assets/green-charge.png';
+import img from './assets/green-charge.jpg';
 
 
 
